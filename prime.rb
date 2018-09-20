@@ -3,5 +3,5 @@ def prime?(num)
     false
   end
   
-  2..num 
+  # from 2..num i want
 end
