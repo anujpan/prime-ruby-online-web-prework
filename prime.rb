@@ -3,8 +3,8 @@ def prime?(num)
     false
   else
     (2..num/2).none? do |i|
-      n % i 
-      
+      n % i == 0
+    end      
   end
   
   # from 2..num remove every X value and check if num is in the list
