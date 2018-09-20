@@ -3,5 +3,5 @@ def prime?(num)
     false
   end
   
-  # from 2..num i want
+  # from 2..num remove every 2nd value
 end
